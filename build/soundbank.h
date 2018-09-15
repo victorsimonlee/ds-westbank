@@ -1,0 +1,11 @@
+#define MOD_LEVEL1	0
+#define MOD_MENU	1
+#define SFX_BANDIT_DIE	62
+#define SFX_BANG	63
+#define SFX_BOOM	64
+#define SFX_MAN_DIE	65
+#define SFX_MONEY	66
+#define SFX_SHOOT	67
+#define MSL_NSONGS	2
+#define MSL_NSAMPS	68
+#define MSL_BANKSIZE	70

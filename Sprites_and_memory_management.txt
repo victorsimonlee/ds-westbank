@@ -1,0 +1,12 @@
+Sprites & memory management:
+----------------------------
+
+1. static images for NPC have its Gfx loaded once, and then PA_CreateSpriteFromGfx() is being used to create sprites.
+
+2. dying animations are created: one per door. Above technique is not possible, since they share same Gfx (all sprites sharing same Gfx animate togheter).
+
+3. hatman are animations, so they are loaded like (2).
+
+------------
+
+AnimationManager may be switched to 'SpriteMemoryManager', where it will at every VBL cycle, check for sprites to be deleted.
